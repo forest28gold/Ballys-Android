@@ -1,0 +1,27 @@
+<!--
+  ~ Copyright (c) 2014. InS3D.com. All rights reserved.
+  ~
+  ~ The contents of this file are subject to the license terms.
+  ~ You may not use, reproduce, distribute or modify this file
+  ~ except in compliance with the License.
+  ~
+  ~ PROPRIETARY/CONFIDENTIAL. DO NOT ALTER OR REMOVE THIS HEADER.
+  -->
+
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+	<color name="blue_trans">#aa057dff</color>
+    
+    
+    <color name="orange">#e87206</color>
+    <color name="black_panel">#6b6969</color>
+    <color name="black_overlay">#acabab</color>
+    <color name="yello">#da5403</color>
+    <color name="yello_overlay">#e87206</color>
+    <color name="blue">#0e76bc</color>
+    <color name="blue_overlay">#dcdcdc</color>
+    
+    
+</resources>

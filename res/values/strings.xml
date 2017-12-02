@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bally\'s Colombo</string>
+
+    <string name="str_casino">CASINO</string>
+    <string name="str_entertainment">ENTERTAINMENT</string>
+    <string name="str_packages">PACKAGES</string>
+    <string name="str_hotel_spa">HOTEL &amp; SPA</string>
+    <string name="str_restaurant">RESTAURANT</string>
+    <string name="str_table_game">TABLE GAME</string>
+    <string name="str_make_mytrip">MAKE MY TRIP</string>
+    <string name="str_sign_up">SIGN UP</string>
+    <string name="str_contact_us">CONTACT US</string>
+    
+    <string name="str_about_us">About Us</string>
+    <string name="str_phone">Phone</string>
+    <string name="str_email">Email</string>
+    <string name="str_map">Map</string>
+    <string name="str_satellite">Satellite</string>
+    
+    <string name="str_contact_number1">+94115556555</string>
+    <string name="str_contact_number2">+94112331151</string>
+    <string name="str_select_phone">Select phone Number.</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_ballys_title">Bally\'s Club</string>
+    <string name="str_ballys_subtitle">D. R. Wijewardena Mawatha, Colombo, Sri Lanka</string>
+    
+
+</resources>

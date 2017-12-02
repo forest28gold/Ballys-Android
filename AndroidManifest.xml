@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ballyscolombo.ballys"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+	<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_GPS"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    
+    <!-- TODO: Replace "com.example.hellomap" with your package name -->
+    <permission
+        android:name="com.ballyscolombo.ballys.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.ballyscolombo.ballys.permission.MAPS_RECEIVE"></uses-permission>
+
+    <application
+       android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:configChanges="locale|orientation"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="true"
+            android:screenOrientation="portrait" />
+        
+        -<activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+			
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".SubMenuActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ContactUsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MapLocationActivity" android:screenOrientation="portrait"/>
+        
+        <meta-data 
+            android:name="com.google.android.gms.version" 
+            android:value="@integer/google_play_services_version" />
+        
+        <meta-data
+        	android:name="com.google.android.maps.v2.API_KEY"
+        	android:value="AIzaSyDNWwdebC5ayrXV-aAVcOIVxN-t6fYB8hs"/>
+        
+    </application>
+
+</manifest>
